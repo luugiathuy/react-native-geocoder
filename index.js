@@ -1,3 +1,4 @@
 import Geocoder from './js/geocoder.js';
+import GoogleApi from './js/googleApi';
 
-export default Geocoder;
+export { Geocoder as default, GoogleApi};
